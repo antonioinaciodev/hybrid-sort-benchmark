@@ -8,8 +8,8 @@ O objetivo deste projeto vai além da implementação pura. Ele visa provar empi
 ## 🔬 Arquitetura e Análise
 
 O projeto foi refatorado em uma arquitetura modularizada e limpa:
-1. **`insertion_sort.py` ($O(n^2)$):** Extremamente rápido para subvetores pequenos ou vetores quase ordenados.
-2. **`merge_sort.py` ($O(n \log n)$):** Eficiente para grandes volumes de dados, mas sofre com *overhead* de chamadas recursivas em partições minúsculas.
+1. **`insertion_sort.py` (O(n^2)):** Extremamente rápido para subvetores pequenos ou vetores quase ordenados.
+2. **`merge_sort.py` (O(n \log n)):** Eficiente para grandes volumes de dados, mas sofre com *overhead* de chamadas recursivas em partições minúsculas.
 3. **`hybrid_sort.py`:** Algoritmo que divide o problema recursivamente (estilo Merge), mas delega a ordenação local para o Insertion Sort quando o subvetor atinge um limiar de tamanho $K$.
 4. **`benchmark.py`:** O motor principal da análise empírica que orquestra os testes e plota os resultados visualmente usando `matplotlib`.
 
