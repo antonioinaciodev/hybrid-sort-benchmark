@@ -1,4 +1,4 @@
-# 📊 Empirical Algorithm Analysis & Hybrid Sort
+# 📊 Análise Empírica de Algoritmos & Hybrid Sort
 
 ## 📌 Sobre o Projeto
 Este repositório contém uma suíte de *benchmarking* e análise empírica de algoritmos de ordenação, desenvolvido como laboratório prático para a disciplina de **Projeto e Análise de Algoritmos** (Ciência da Computação - UFPI).
